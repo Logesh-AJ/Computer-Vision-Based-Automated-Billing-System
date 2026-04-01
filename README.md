@@ -4,31 +4,6 @@ Real-time smart billing system using YOLOv8, OpenCV, and Flask that detects prod
 
 ---
 
-## 🎥 Demo
-
-[Demo_video](https://youtu.be/U2QKT1qezMY)
-
----
-
-## 🚀 Project Overview
-
-This system uses a custom-trained YOLOv8 model to detect retail products such as Coca-Cola, Pepsi, 7up, Sprite, and more from a live webcam feed.
-
-Detected products are mapped to predefined prices and dynamically displayed in a web-based billing interface.
-
----
-
-## 🧠 Features
-
-* Real-time object detection using YOLOv8
-* Automated billing without barcode scanning
-* Multi-product classification (20+ items)
-* Live webcam integration
-* Flask backend for inference
-* Dynamic billing UI (HTML + JS)
-
----
-
 ## 🏗️ Architecture
 
 Camera (Webcam)
@@ -46,6 +21,34 @@ Price Mapping
 Billing Display
 
 ---
+
+## 🚀 Project Overview
+
+This system uses a custom-trained YOLOv8 model to detect retail products such as Coca-Cola, Pepsi, 7up, Sprite, and more from a live webcam feed.
+
+Detected products are mapped to predefined prices and dynamically displayed in a web-based billing interface.
+
+---
+
+## 🎥 Demo
+
+[Demo_video](https://youtu.be/U2QKT1qezMY)
+
+---
+
+
+
+## 🧠 Features
+
+* Real-time object detection using YOLOv8
+* Automated billing without barcode scanning
+* Multi-product classification (20+ items)
+* Live webcam integration
+* Flask backend for inference
+* Dynamic billing UI (HTML + JS)
+
+---
+
 
 ## 📂 Project Structure
 
@@ -138,11 +141,6 @@ http://127.0.0.1:5000
 
 ---
 
-## 👤 Author
-
-Logesh-AJ
-
----
 
 ## 🚀 Future Improvements
 
@@ -152,3 +150,10 @@ Logesh-AJ
 * Mobile app version
 
 ---
+
+## 👤 Author
+
+Logesh-AJ
+
+---
+
