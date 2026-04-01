@@ -1,0 +1,14 @@
+### 🛒 Computer Vision Based Automated Billing System Demo  
+
+This demo showcases a real-time automated billing system using YOLOv8 for product detection. The system identifies retail items through a camera 
+feed and automatically calculates the total bill without requiring barcode scanning.
+
+▶ [Watch Demo](https://youtu.be/U2QKT1qezMY)
+
+The video demonstrates:
+- Real-time object detection
+- Product classification using YOLOv8
+- Automatic price mapping
+- Dynamic billing interface updates
+
+The system highlights how computer vision can replace traditional checkout processes and reduce manual effort in retail environments.
