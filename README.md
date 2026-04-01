@@ -80,27 +80,6 @@ The model performs strongly but shows minor confusion between visually similar p
 
 ---
 
-## ⚙️ YOLOv8 Model Variants
-
-You can use different YOLO models by changing the model name in code:
-
-```python
-model = YOLO("yolov8n.pt")  # nano
-model = YOLO("yolov8s.pt")  # small
-model = YOLO("yolov8m.pt")  # medium
-model = YOLO("yolov8l.pt")  # large
-model = YOLO("yolov8x.pt")  # extra large
-```
-
-* Nano → Fast, low power
-* Small → Balanced
-* Medium → Better accuracy
-* Large / X → High accuracy, heavy
-
-⚠️ Internet connection is required to download these models automatically.
-
----
-
 ## 💻 System Requirements
 
 * Python ≥ 3.8
