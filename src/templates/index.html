@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO Billing System</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <div class="camera-container">
+        <h1>YOLO Object Detection Billing System</h1>
+
+        <video id="video" autoplay playsinline></video>
+        <img id="captured-image" style="display: none;" />
+        <img id="camera-placeholder" src="/static/images/camera_placeholder.avif" style="display: none;" />
+
+        <button id="start-camera">Start Camera</button>
+        <button id="capture" disabled>Capture</button>
+        <button id="end-billing" disabled>End Billing</button>
+
+        <div id="price-list">
+            <h2>Billing Summary</h2>
+            <ul id="item-list"></ul>
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+        </div>
+    </div>
+
+    <script src="/static/js/scripts.js"></script>
+</body>
+
+</html>
