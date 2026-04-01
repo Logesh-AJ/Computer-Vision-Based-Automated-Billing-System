@@ -6,7 +6,7 @@ Real-time smart billing system using YOLOv8, OpenCV, and Flask that detects prod
 
 ## 🎥 Demo
 
-▶  [demo_video,https://youtu.be/U2QKT1qezMY]
+[Demo_video](https://youtu.be/U2QKT1qezMY)
 
 ---
 
