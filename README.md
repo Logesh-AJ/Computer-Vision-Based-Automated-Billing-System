@@ -6,18 +6,18 @@ Real-time smart billing system using YOLOv8, OpenCV, and Flask that detects prod
 
 ## 🏗️ Architecture
 
-Camera (Webcam)
-↓
+Camera (Webcam) 
+-> 
 Frontend (HTML + JavaScript)
-↓
+->
 Flask Backend (Python)
-↓
+->
 YOLOv8 Model
-↓
+->
 Product Detection
-↓
+->
 Price Mapping
-↓
+->
 Billing Display
 
 ---
